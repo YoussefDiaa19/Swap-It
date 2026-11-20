@@ -1,1 +1,37 @@
-### SwapIt: Smart Item Exchange Platform  SwapIt is a mobile application that allows users to exchange items they no longer need with other users who are interested in them. Instead of buying and selling items, users can list their belongings, browse available items, save interesting listings to their favorites, and propose exchanges with other users.  Users can create accounts using Google or other authentication methods, then upload items with photos, descriptions, categories, condition, and exchange preferences. Submitted listings are reviewed by an administrator before becoming visible to other users.  The application includes an AI-powered system that analyzes submitted listings to assist with content moderation and item classification. The AI can detect inappropriate or prohibited content, identify the item's category from its description and/or image, and flag suspicious listings for administrator review. This provides a meaningful AI component rather than using AI only as a chatbot.  Users can search and filter available items, add listings to their favorites, communicate through in-app chat, and send or receive exchange offers. Users can also block or report other users or inappropriate listings.  The system includes an administrative dashboard where administrators can review, approve, or reject submitted listings, manage reports, monitor users, and handle inappropriate content.  The project combines mobile UI/UX, authentication, database management, image and text processing, AI-based classification and moderation, search and filtering, real-time communication, notifications, and role-based administration.
+# 🔄 SwapIt: Smart Item Exchange Platform
+
+> **Trade what you have for what you need—cash-free.**
+
+**SwapIt** is a mobile application designed for peer-to-peer item bartering. Instead of buying and selling, users can list belongings they no longer need, browse available items, save favorites, and negotiate direct exchanges with others in the community.
+
+---
+
+## ✨ Key Features
+
+### 👤 User Experience & Listing Management
+* **Flexible Authentication:** Sign up and log in seamlessly via Google or standard authentication methods.
+* **Rich Item Listings:** Upload items complete with photos, detailed descriptions, condition statuses, categories, and specific exchange preferences.
+* **Discovery & Favorites:** Search and filter through approved listings, and bookmark interesting items for later.
+* **Real-Time Bartering:** Send and receive exchange offers and negotiate details directly through built-in in-app chat.
+* **Community Safety:** Built-in tools to block users or report suspicious accounts and inappropriate listings.
+
+### 🤖 AI-Powered Moderation & Classification
+Rather than relying on generic chatbot integrations, SwapIt embeds AI directly into its core listing pipeline:
+* **Automated Classification:** Analyzes item descriptions and images to automatically suggest or verify accurate item categories.
+* **Content Moderation:** Scans submissions to detect inappropriate, prohibited, or spam content before publication.
+* **Risk Flagging:** Automatically flags suspicious listings to prioritize them for human review.
+
+### 🛡️ Role-Based Administration
+* **Admin Dashboard:** A centralized control panel for platform moderators.
+* **Approval Workflow:** All submitted listings undergo administrative review (approve/reject) before going live to the public feed.
+* **Trust & Safety Management:** Monitor user activity, resolve user-submitted reports, and enforce platform guidelines.
+
+---
+
+## 🏗️ Technical Architecture & Core Pillars
+
+SwapIt brings together a full-stack mobile architecture covering:
+* **Frontend:** Mobile UI/UX focused on intuitive browsing and real-time interaction.
+* **Backend & Security:** Role-based access control (RBAC), user authentication, and structured database management.
+* **Media & AI Pipeline:** Image and text processing for automated classification and safety moderation.
+* **Real-Time Services:** Instant in-app messaging, push notifications, and dynamic search/filtering.
